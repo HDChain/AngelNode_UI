@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	-webkit-tap-highlight-color: transparent;
+	min-width: 1000px;
+	background: #fff;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+	cursor: pointer;
+}
+
+input {
+	-webkit-appearance: none;
+	cursor: pointer;
+}
+img {
+	cursor: pointer;
+}
+p{
+	margin-bottom: 0;
+}
+div, span {
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+/*信息提示模板*/
+
+.msg {
+	color: #fff;
+	font-size: 3.4667vw;
+	position: fixed;
+	z-index: 999;
+	top: 50vh;
+	left: 0;
+	transform: translateY(-50%);
+	width: 100vw;
+	text-align: center;
+	line-height: 1.8;
+	display: none;
+}
+
+.msg>span {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 0.5vw 3vw;
+	border-radius: 5px;
+	display: inline-block;
+}

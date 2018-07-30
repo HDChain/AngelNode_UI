@@ -1,0 +1,187 @@
+.wrap {
+	margin: 40px auto;
+	max-width: 900px;
+}
+
+.head-wrap {
+	display: flex;
+}
+
+.head-wrap>div {
+	height: 50px;
+}
+
+.head-wrap .btn-account,
+.head-wrap .btn-statistics {
+	background: #909c9c;
+	border-radius: 5px;
+	line-height: 50px;
+	text-align: center;
+	width: 160px;
+	margin-right: 20px;
+	font-size: 14px;
+}
+
+.head-wrap .btn-this {
+	background: url(../img/r_2.png) center center no-repeat;
+	background-size: 100% 100%;
+}
+
+.btn-account>a,
+.btn-statistics>a {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.head-txt {
+	width: 45%;
+	margin-left: 20px;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.head-txt span {
+	color: #a6a6a6;
+}
+
+.head-type {
+	width: 13%;
+	line-height: 40px;
+}
+
+.head-type>img {
+	width: 30px;
+	height: 30px;
+	margin: 5px 10px;
+	float: left;
+}
+
+.head-type>span {
+	float: left;
+	font-size: 13px;
+}
+
+.con-wrap {
+	display: flex;
+	margin-top: 40px;
+}
+
+.con-wrap>div {
+	height: 35px;
+	display: flex;
+}
+
+.con-address {
+	width: 45%;
+	margin-right: 30px;
+}
+
+.con-address>span {
+	font-size: 13px;
+	line-height: 35px;
+	width: 75px;
+}
+
+.con-address>input {
+	border: 1px solid #afafaf;
+	border-radius: 3px;
+	font-size: 13px;
+	padding: 0 10px;
+	width: 75%;
+}
+
+.con-wrap .btn-add {
+	background: url(../img/r_2.png) center center no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+	font-size: 14px;
+	line-height: 35px;
+	border-radius: 5px;
+	padding: 0 25px;
+}
+
+.list-wrap {
+	border: 1px solid #999;
+	margin-top: 50px;
+}
+
+.list-title {
+	display: flex;
+	border-bottom: 1px solid #999;
+}
+
+.list-title>span {
+	font-size: 12px;
+	line-height: 30px;
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+
+.list-li {
+	display: flex;
+	border-bottom: 1px solid #999;
+}
+
+.list-li:last-child {
+	border: none;
+}
+
+.list-li>div {
+	font-size: 12px;
+	line-height: 30px;
+	width: 30%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.list-wrap .list_1 {
+	width: 5%;
+}
+
+.list-wrap .list_2 {
+	width: 30%;
+	padding: 0 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.list-wrap .list_3 {
+	width: 40%;
+	padding: 0 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis;
+	-moz-text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.list-wrap .list_4 {
+	width: 20%;
+}
+
+.list-wrap .list_5 {
+	width: 10%;
+}
+
+.btn-delete {}
+
+.btn-delete>img {
+	width: 11px;
+	height: 11px;
+	float: left;
+	margin: 13px 0px 0px 25%;
+}
+
+.btn-delete>span {
+	line-height: 35px;
+	float: left;
+	margin-left: 10px;
+}
